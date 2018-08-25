@@ -20,6 +20,10 @@
         <servlet-name>ShowCart</servlet-name>
         <servlet-class>sit.int303.first.servlet.ShowCartServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ChooseBackgroundServlet</servlet-name>
+        <servlet-class>sit.int303.first.servlet.ChooseBackgroundServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SimpleCalculatorServlet</servlet-name>
         <url-pattern>/SimpleCalcu</url-pattern>
@@ -41,6 +45,11 @@
     <servlet-mapping>
         <servlet-name>ShowCart</servlet-name>
         <url-pattern>/ShowCart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ChooseBackgroundServlet</servlet-name>
+        <url-pattern>/ChooseBackgroundServlet</url-pattern>
+        <url-pattern>/ChooseBackground</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
