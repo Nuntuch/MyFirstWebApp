@@ -12,3 +12,9 @@ os.arch=amd64
 os.version=10.0
 derby.system.home=C:\Users\Nuntuch  Thongyoo\Desktop\GitProject\MyFirstWebApp\DB
 Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Sep 06 19:46:34 ICT 2018: Shutting down Derby engine
+----------------------------------------------------------------
+Thu Sep 06 19:46:34 ICT 2018:
+Shutting down instance a816c00e-0165-aee4-bae5-ffffab31dbbb on database directory C:\Users\Nuntuch  Thongyoo\Desktop\GitProject\MyFirstWebApp\DB\classicmodel with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+----------------------------------------------------------------
