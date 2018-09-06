@@ -1,0 +1,31 @@
+Thu Sep 06 18:29:53 ICT 2018 : Apache Derby Network Server - 10.11.1.2 - (1629631) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Thu Sep 06 18:29:53 ICT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0165-aea5-3994-ffffab31dbbb 
+on database directory C:\Users\Nuntuch  Thongyoo\Desktop\GitProject\MyFirstWebApp\DB\classicmodel with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_171/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_171-b11
+user.dir=C:\Program Files\Java\jdk1.8.0_171\db
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\Nuntuch  Thongyoo\Desktop\GitProject\MyFirstWebApp\DB
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Sep 06 18:29:55 ICT 2018:
+Shutting down instance a816c00e-0165-aea5-3994-ffffab31dbbb on database directory C:\Users\Nuntuch  Thongyoo\Desktop\GitProject\MyFirstWebApp\DB\classicmodel with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Thu Sep 06 18:29:55 ICT 2018 Thread[DRDAConnThread_2,5,main] (DATABASE = classicmodel), (DRDAID = {2}), Database 'classicmodel' shutdown.
+----------------------------------------------------------------
+Thu Sep 06 18:30:44 ICT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance 0ddd00a9-0165-aea5-3994-ffffab31dbbb 
+on database directory C:\Users\Nuntuch  Thongyoo\Desktop\GitProject\MyFirstWebApp\DB\classicmodel with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_171/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_171-b11
+user.dir=C:\Program Files\Java\jdk1.8.0_171\db
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\Nuntuch  Thongyoo\Desktop\GitProject\MyFirstWebApp\DB
+Database Class Loader started - derby.database.classpath=''

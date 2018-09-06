@@ -60,21 +60,21 @@
                         <!--index จะเริ่มจาก0-->
                         
                         <td>${vs.count}</td>
-                        <td>${p.productCode}</td>
-                        <td>${p.productName}</td>
-                        <td>${p.productLine}</td>
-                        <td>${p.productScale}</td>
+                        <td><a href="GetProduct?productCode=${p.productcode}">${p.productcode}</a></td>
+                        <td>${p.productname}</td>
+                        <td>${p.productline.productline}</td>
+                        <td>${p.productscale}</td>
                         <td>${p.msrp}</td>
-                        <td><img src="model-images/${p.productCode}.jpg" width="120"></td>
+                        <td><img src="model-images/${p.productcode}.jpg" width="120"></td>
 
                         <td>
-                            <a href="AddItemToCart?productCode=${p.productCode}">
+                            <a href="AddItemToCart?productCode=${p.productcode}">
                                 <input type="button" value="Add To Cart By Para "/> 
 
                             </a>
 
                             <form action="AddItemToCart" method="post">
-                                <input type="hidden" value="${p.productCode}" name="productCode"/>
+                                <input type="hidden" value="${p.productcode}" name="productCode"/>
                                 <input type="submit" value="Add To Cart By Form"/>
                             </form>
 
