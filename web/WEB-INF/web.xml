@@ -24,10 +24,13 @@
         <servlet-name>ChooseBackgroundServlet</servlet-name>
         <servlet-class>sit.int303.first.servlet.ChooseBackgroundServlet</servlet-class>
     </servlet>
+<<<<<<< HEAD
     <servlet>
         <servlet-name>GetProductServlet</servlet-name>
         <servlet-class>sit.int303.first.servlet.GetProductServlet</servlet-class>
     </servlet>
+=======
+>>>>>>> master
     <servlet-mapping>
         <servlet-name>SimpleCalculatorServlet</servlet-name>
         <url-pattern>/SimpleCalcu</url-pattern>
@@ -55,10 +58,13 @@
         <url-pattern>/ChooseBackgroundServlet</url-pattern>
         <url-pattern>/ChooseBackground</url-pattern>
     </servlet-mapping>
+<<<<<<< HEAD
     <servlet-mapping>
         <servlet-name>GetProductServlet</servlet-name>
         <url-pattern>/GetProduct</url-pattern>
     </servlet-mapping>
+=======
+>>>>>>> master
     <session-config>
         <session-timeout>
             30
