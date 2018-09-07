@@ -42,6 +42,10 @@
         <servlet-name>ProductListServlet</servlet-name>
         <servlet-class>sit.int303.first.servlet.ProductListServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>sit.int303.first.servlet.LoginServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SimpleCalculatorServlet</servlet-name>
         <url-pattern>/SimpleCalcu</url-pattern>
@@ -76,6 +80,10 @@
     <servlet-mapping>
         <servlet-name>ProductListServlet</servlet-name>
         <url-pattern>/ProductList</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/Login</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
