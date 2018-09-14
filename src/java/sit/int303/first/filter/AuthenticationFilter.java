@@ -24,7 +24,16 @@ import javax.servlet.http.HttpSession;
  */
 public class AuthenticationFilter implements Filter {
 
-    private FilterConfig config;
+    private FilterConfig config; 
+/*FilterConfig config ทำให้เราใช้พวกนี้ได้
+    public String getFilterName();
+
+    public ServletContext getServletContext();
+
+    public String getInitParameter(String name);
+
+    public Enumeration<String> getInitParameterNames();
+*/
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
