@@ -46,37 +46,14 @@ public class RegisterServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-//        
-//        String email = request.getParameter("email");
-//        String password = request.getParameter("password");
-//        
-//        
-//        getServletContext().getRequestDispatcher("/RegsisterForm.jsp").forward(request, response);
-//        
-////        response.setContentType("text/html;charset=UTF-8");
-////        try (PrintWriter out = response.getWriter()) {
-////            /* TODO output your page here. You may use following sample code. */
-////            out.println("<!DOCTYPE html>");
-////            out.println("<html>");
-////            out.println("<head>");
-////            out.println("<title>Servlet RegisterServlet</title>");            
-////            out.println("</head>");
-////            out.println("<body>");
-////            out.println("<h1>Servlet RegisterServlet at " + request.getContextPath() + "</h1>");
-////            out.println("</body>");
-////            out.println("</html>");
-////        }
-//    }
+
 
         String email = request.getParameter("email");
         String password = request.getParameter("password");
-
+    
         if (email != null && email.length() > 0
                 && password != null && password.length() > 0) {
             password = cryptWithMD5(password).substring(0, 24);
-//            CustomerJpaController customerJpaCtrl = new CustomerJpaController(utx, emf);
-//            Customer c = customerJpaCtrl.findCustomer(Integer.valueOf(userName));
-           
              Register register = new Register(email, password);
             RegisterJpaController regJpaCtrl = new RegisterJpaController(utx, emf);
             try {
@@ -89,20 +66,10 @@ public class RegisterServlet extends HttpServlet {
 
 
         }
+            
          request.setAttribute("message", "555555");
-            getServletContext().getRequestDispatcher("/RegisterForm.jsp").forward(request, response);
+           
 
-//            Register register = new Register(email, password);
-//            RegisterJpaController regJpaCtrl = new RegisterJpaController(utx, emf);
-//            try {
-//                regJpaCtrl.create(register);
-//            } catch (RollbackFailureException ex) {
-//                Logger.getLogger(RegisterServlet.class.getName()).log(Level.SEVERE, null, ex);
-//            } catch (Exception ex) {
-//                Logger.getLogger(RegisterServlet.class.getName()).log(Level.SEVERE, null, ex);
-//            }
-//         getServletContext().getRequestDispatcher("ActivateUser").forward(request, response);
-//        getServletContext().getRequestDispatcher("ActivateUser").forward(request, response);
     }
 
     public static String cryptWithMD5(String pass) {
@@ -134,7 +101,8 @@ public class RegisterServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+            getServletContext().getRequestDispatcher("/RegisterForm.jsp").forward(request, response);
+//        processRequest(request, response);
     }
 
     /**
@@ -148,7 +116,7 @@ public class RegisterServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+       processRequest(request, response);
     }
 
     /**
