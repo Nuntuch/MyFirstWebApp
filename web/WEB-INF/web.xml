@@ -66,6 +66,14 @@
         <servlet-name>LogoutServlet</servlet-name>
         <servlet-class>sit.int303.first.servlet.LogoutServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>sit.int303.first.servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ActivateUserServlet</servlet-name>
+        <servlet-class>sit.int303.first.servlet.ActivateUserServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SimpleCalculatorServlet</servlet-name>
         <url-pattern>/SimpleCalcu</url-pattern>
@@ -108,6 +116,14 @@
     <servlet-mapping>
         <servlet-name>LogoutServlet</servlet-name>
         <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ActivateUserServlet</servlet-name>
+        <url-pattern>/ActivateUser</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
