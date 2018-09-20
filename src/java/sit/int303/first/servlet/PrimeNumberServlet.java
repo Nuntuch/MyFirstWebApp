@@ -44,7 +44,7 @@ public class PrimeNumberServlet extends HttpServlet {
             
             if(pn == null){   
                 pn = new PrimeNumber(number);
-                session.setAttribute("pn", pn);
+                session.setAttribute("pn", pn);                
             }
             pn.setNumber(number);
         }

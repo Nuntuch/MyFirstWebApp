@@ -34,8 +34,8 @@ public class TestRequestParamServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        String id = request.getParameter("id");
-        String name = request.getParameter("name");
+//        String id = request.getParameter("id");
+//        String name = request.getParameter("name");
         String[] subjects = request.getParameterValues("subjects");
         List<String> subjectList = new ArrayList();
 
